@@ -2,16 +2,15 @@
 
 print('    Estações do ano    ')
 
-a = input('Escreva a estação do dia que deseja: ')
-aa = input('Escreva o mês que deseja: ')
+a = input('Escreva o dia e mes que deseja: ')
 a.title()
 
-b = '20''março'
-c = '21''junho'
-d = '23''setembro'
-e = '22''dezembro'
+b = '20 de março'
+c = '21 de junho'
+d = '23 de setembro'
+e = '22 de dezembro'
 
-if a and aa in b:
+if a in b:
     print('outono - 18:25h')
 if a in c:
     print('inverno- 03:50h')
